@@ -25,13 +25,13 @@ Heavily influenced by [`hast-util-to-mdast`](https://github.com/syntax-tree/hast
 
 <!-- Definitions -->
 
-[build-badge]: https://img.shields.io/travis/syntax-tree/hast-util-to-portable-text.svg
-[build]: https://travis-ci.org/syntax-tree/hast-util-to-portable-text
+[build-badge]: https://img.shields.io/travis/rexxars/hast-util-to-portable-text.svg
+[build]: https://travis-ci.org/rexxars/hast-util-to-portable-text
 [size-badge]: https://img.shields.io/bundlephobia/minzip/hast-util-to-portable-text.svg
 [size]: https://bundlephobia.com/result?p=hast-util-to-portable-text
 [npm]: https://docs.npmjs.com/cli/install
 [license]: license
 [author]: https://espen.codes/
-[portable-text]: https://github.com/syntax-tree/portable-text
-[hast]: https://github.com/syntax-tree/hast
+[portable-text]: https://www.portabletext.org/
+[hast]: https://github.com/rexxars/hast
 [rehype-portable-text]: https://github.com/rexxars/rehype-portable-text
