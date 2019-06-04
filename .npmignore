@@ -1,0 +1,9 @@
+src
+.nyc_output
+coverage
+.babelrc
+.editorconfig
+.eslintrc
+.gitignore
+.npmignore
+.prettierrc

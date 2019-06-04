@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "babel -d lib src",
+    "prepublishOnly": "npm run build",
     "test": "tap",
     "coverage": "npm test -- --coverage-report=lcov"
   },
