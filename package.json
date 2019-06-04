@@ -1,0 +1,46 @@
+{
+  "name": "hast-util-to-portable-text",
+  "version": "0.0.1",
+  "description": "Transform hast to portable text",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel -d lib src",
+    "test": "tap",
+    "coverage": "npm test -- --coverage-report=lcov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rexxars/hast-util-to-portable-text.git"
+  },
+  "keywords": [
+    "hast",
+    "portable-text",
+    "rehype",
+    "html"
+  ],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexxars/hast-util-to-portable-text/issues"
+  },
+  "homepage": "https://github.com/rexxars/hast-util-to-portable-text#readme",
+  "dependencies": {
+    "extend": "^3.0.2",
+    "hash-it": "^4.0.4",
+    "rehype-minify-whitespace": "^2.0.3",
+    "unist-util-visit-parents": "^2.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-sanity": "^0.140.0",
+    "hastscript": "^5.1.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.2",
+    "tap": "^14.2.0",
+    "unist-builder": "^1.0.4"
+  }
+}
