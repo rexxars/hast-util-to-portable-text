@@ -33,5 +33,5 @@ Heavily influenced by [`hast-util-to-mdast`](https://github.com/syntax-tree/hast
 [license]: license
 [author]: https://espen.codes/
 [portable-text]: https://www.portabletext.org/
-[hast]: https://github.com/rexxars/hast
+[hast]: https://github.com/syntax-tree/hast
 [rehype-portable-text]: https://github.com/rexxars/rehype-portable-text
